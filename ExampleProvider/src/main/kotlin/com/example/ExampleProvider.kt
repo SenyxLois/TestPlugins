@@ -22,7 +22,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLinkType
 import com.lagradost.cloudstream3.utils.newExtractorLink
 
 class ExampleProvider(val plugin: TestPlugin) : MainAPI() { // all providers must be an intstance of MainAPI
-    override var mainUrl = "https://example.com/" 
+    override var mainUrl = "https://pencurimoviesubmalay.sbs/" 
     override var name = "Example provider"
     override val supportedTypes = setOf(TvType.Movie)
     override var lang = "en"
